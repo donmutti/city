@@ -1,8 +1,11 @@
+import {inject} from '@vercel/analytics'
 import {recoverCar} from './game/recovery.js'
 import {stepVertical} from './game/vertical.js'
 // Entry point and frame loop. Owns the clock, the input, the car and the camera; asks the renderer
 // for a scene and hands it nothing but numbers. See INTERFACES.md — createScene's return is the
 // only thing this file may rely on, and it never reaches into a material.
+
+inject()
 
 import * as THREE from 'three'
 import {simulationDelta} from './game/timing.js'
