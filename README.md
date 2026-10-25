@@ -7,8 +7,8 @@ A browser game set in the actual streets of Luxembourg City. The roads, the buil
 You need **Node 20.19 or newer** (22.12+ also fine; `node -v` will tell you). Nothing else — no database, no API keys, no account.
 
 ```bash
-git clone https://github.com/donmutti/gta.git
-cd gta
+git clone https://github.com/donmutti/city.git
+cd city
 npm install
 npm run dev
 ```

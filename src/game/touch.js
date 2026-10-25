@@ -25,7 +25,7 @@
 const STICK_R = 62           // px from the stick centre that means full deflection on an axis
 const STICK_DEAD = 0.14      // fraction of the throw ignored, so a resting thumb does not creep
 const PAD_FULL_LOCK = 0.33   // buttons layout: fraction of screen width that means full lock
-const LAYOUT_KEY = 'gta.touchLayout'
+const LAYOUT_KEY = 'city.touchLayout'
 
 
 import {fullscreenAvailable} from './fullscreen.js'

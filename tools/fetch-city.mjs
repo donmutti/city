@@ -4,7 +4,7 @@
 //
 // Slice: Ville-Haute + Kirchberg + the Pont Rouge across the Pfaffenthal gorge.
 const BBOX = "49.600,6.115,49.625,6.145"; // south,west,north,east
-const UA = "gta-lux-build/0.1 (personal project)";
+const UA = "city-lux-build/0.1 (personal project)";
 
 const query = `
 [out:json][timeout:90];

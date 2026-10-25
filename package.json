@@ -1,5 +1,5 @@
 {
-  "name": "gta",
+  "name": "city",
   "version": "1.0.0",
   "description": "A browser driving game set in the real streets of Luxembourg City, built from OpenStreetMap data.",
   "scripts": {

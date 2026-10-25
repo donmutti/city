@@ -9,7 +9,7 @@ This file is the orientation for anybody working on the code: the decisions that
 ## Running it
 
 ```bash
-cd path/to/gta
+cd path/to/city
 npm install          # first time only
 npm run dev          # Vite dev server — the game runs on http://localhost:5199
 npm run build        # production build into dist/
